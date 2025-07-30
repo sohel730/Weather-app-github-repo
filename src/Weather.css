@@ -1,0 +1,62 @@
+body{
+    
+   border: 1px solid red;
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+  
+   
+
+
+}
+
+
+.parent{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: #d2eef9;
+    
+    box-shadow: 26px 26px 51px  #489dcf,
+                 -24px -24px 51px #62d5ff;
+
+   
+    border-radius: 5px;
+   
+   
+
+  
+
+}
+
+.child{
+
+    text-align: center;
+    padding: 10px;
+   
+    margin-top: 5px;
+}
+input{
+
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+
+    height: 100%;
+    width: 70%;
+
+}
+#lastchild{
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-gap: 25px;
+   
+}
+
+.message{
+    text-align: center;
+}
+
